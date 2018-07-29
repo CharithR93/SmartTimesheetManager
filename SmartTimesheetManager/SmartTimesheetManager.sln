@@ -5,6 +5,14 @@ VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimesheetManagerApp.Web", "TimesheetManagerApp.Web\TimesheetManagerApp.Web.csproj", "{23B5DA5B-7C4A-4B19-8783-7ACC878A8B53}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimesheetManagerApp.Core", "TimesheetManagerApp.Core\TimesheetManagerApp.Core.csproj", "{180D4EBC-9F74-48E7-B4E0-4A104D1194DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimesheetManagerApp.Service", "TimesheetManagerApp.Service\TimesheetManagerApp.Service.csproj", "{381B0740-073E-4604-B638-15633FA10DF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimesheetManagerApp.Shared.Entities", "TimesheetManagerApp.Shared.Entities\TimesheetManagerApp.Shared.Entities.csproj", "{021DD1CA-47AB-47CB-BD87-4F2A93EBCE3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimesheetManagerApp.Shared.Function", "TimesheetManagerApp.Shared.Function\TimesheetManagerApp.Shared.Function.csproj", "{AB52266B-E735-465D-A9BE-26DCCE6E3992}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,22 @@ Global
 		{23B5DA5B-7C4A-4B19-8783-7ACC878A8B53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23B5DA5B-7C4A-4B19-8783-7ACC878A8B53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23B5DA5B-7C4A-4B19-8783-7ACC878A8B53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{180D4EBC-9F74-48E7-B4E0-4A104D1194DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{180D4EBC-9F74-48E7-B4E0-4A104D1194DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{180D4EBC-9F74-48E7-B4E0-4A104D1194DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{180D4EBC-9F74-48E7-B4E0-4A104D1194DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{381B0740-073E-4604-B638-15633FA10DF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{381B0740-073E-4604-B638-15633FA10DF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{381B0740-073E-4604-B638-15633FA10DF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{381B0740-073E-4604-B638-15633FA10DF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{021DD1CA-47AB-47CB-BD87-4F2A93EBCE3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{021DD1CA-47AB-47CB-BD87-4F2A93EBCE3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{021DD1CA-47AB-47CB-BD87-4F2A93EBCE3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{021DD1CA-47AB-47CB-BD87-4F2A93EBCE3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB52266B-E735-465D-A9BE-26DCCE6E3992}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB52266B-E735-465D-A9BE-26DCCE6E3992}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB52266B-E735-465D-A9BE-26DCCE6E3992}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB52266B-E735-465D-A9BE-26DCCE6E3992}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
