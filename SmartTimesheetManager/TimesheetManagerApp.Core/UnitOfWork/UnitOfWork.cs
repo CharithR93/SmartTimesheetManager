@@ -11,6 +11,8 @@ namespace TimesheetManagerApp.Core.UnitOfWork
     public class UnitOfWork:IUnitOfWork
     {
         private readonly DbContext context;
+        private bool _dispose;
+
 
         public UnitOfWork(DbContext context)
         {
